@@ -18,7 +18,7 @@ defmodule App.Application do
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: App.Supervisor]
 
-    Logger.info "The server listening at port: #{port()}"
+    Logger.info("The server listening at port: #{port()}")
     Supervisor.start_link(children, opts)
   end
 

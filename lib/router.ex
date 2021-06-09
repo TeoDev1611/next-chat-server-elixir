@@ -1,4 +1,7 @@
 defmodule Router do
+
+  @moduledoc false
+
   use Plug.Router
   use Routes.Base
 
