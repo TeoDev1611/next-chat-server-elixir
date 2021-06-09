@@ -1,5 +1,6 @@
 defmodule Router do
   use Plug.Router
+  use Routes.Base
 
   plug Plug.Logger
 
@@ -10,6 +11,6 @@ defmodule Router do
   forward "/api", to: Routes.ApiRouter
 
   match _ do
-    send_resp(conn, 404, "Not found!")
+    send_resp(conn, 404, Jason.encode!(%{"code" => 0, "message" => "Error route not found"}))
   end
 end
