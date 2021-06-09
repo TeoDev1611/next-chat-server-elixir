@@ -59,9 +59,11 @@ mix format
 -   [@TeoDev1611](https://github.com/TeoDev1611) - Icon Design, API Maker in Elixir
 
 ## Changelog
+
 View the lastest repository changes in the [CHANGELOG.md](./CHANGELOG.md) file.
 
 ## Copyright
+
 License: GPL-2.0
 
 Read file [LICENSE](./LICENSE) for more information.
