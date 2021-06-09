@@ -3,7 +3,7 @@
 This repository contains the source code of the server application for NextChat written with Elixir.
 
 - [Pre-requisites](#Pre-Requisites)
-- [End Points](./end-points.md)
+- [End Points](./endpoints.md)
 - [Authors](#Authors)
 - [Change Log](#Changelog)
 - [Copyright](#Copyright)
